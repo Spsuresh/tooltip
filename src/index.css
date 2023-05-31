@@ -7,7 +7,145 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* ======================styles for main box======================== */
+
+
+#downimage{
+  height: 20px;
+  width: 20px;
+}
+
+#main{
+position: absolute;
+top: 160px;
+left: 650px;
+height: 35px;
+width: 130px;
+background-color: skyblue;
+border-radius: 17px;
+text-align: center;
+}
+
+#downtext {
+  position: relative;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+#downimage {
+  position: relative;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+
+/* ====================styles for tooltip box for top============================ */
+
+
+#tipboxtop {
+  position: absolute;
+  top: -65px;
+  height: 46px;
+  left: 1px;
+  width: 124px;
+  border-radius: 5px;
+  background-color: powderblue;
+text-align: center;
+}
+
+#triangletop {
+  height: 0;
+  width: 0;
+  top: 46px;
+  position: absolute;
+  left: 55px;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 16px solid powderblue;
+  }
+
+
+/* =========================down tooltip========================== */
+
+
+#tipboxdown {
+  position: absolute;
+  top: 50px;
+  height: 46px;
+  left: 5px;
+  width: 124px;
+  border-radius: 5px;
+  background-color: powderblue;
+  text-align: center;
+}
+
+#triangledown {
+  height: 0;
+  width: 0;
+  top: -16px;
+  position: absolute;
+  left: 55px;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 16px solid powderblue;
+}
+
+
+/* =========================left tooltip================================ */
+
+
+#tipboxleft {
+  position: absolute;
+  top: -8px;
+  height: 46px;
+  left: -140px;
+  width: 124px;
+  border-radius: 5px;
+  background-color: powderblue;
+  text-align: center;
+}
+
+#triangleleft {
+ 
+    height: 0;
+    width: 0;
+    top: 17px;
+    position: absolute;
+    left: 124px;
+    border-bottom: 8px solid transparent;
+    border-left: 16px solid powderblue;
+    border-top: 8px solid transparent;
+
+  }
+
+
+/* ================================right tooltip============================= */
+
+
+#tipboxright {
+  position: absolute;
+  top: -8px;
+  height: 46px;
+  left: 146px;
+  width: 124px;
+  border-radius: 5px;
+  background-color: powderblue;
+text-align: center;
+}
+
+#triangleright {
+  height: 0;
+  width: 0;
+  top: 16px;
+  position: absolute;
+  left: -16px;
+  border-bottom: 8px solid transparent;
+  border-top: 8px solid transparent;
+  border-right: 16px solid powderblue;
+  }
+
+  label {
+    position: absolute;
+    top: 165px;
+    left: 236px;
 }
